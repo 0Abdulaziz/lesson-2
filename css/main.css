@@ -1,0 +1,63 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html{
+   font-size: 62.5%;
+}
+body{
+   background-color: grey;
+   text-align: center;
+}
+.container{
+   margin: auto;
+   width: 120rem;
+   height: 75rem;
+   border: 2px solid gainsboro;
+   border-radius: 1.5rem;
+}
+.fruit{
+   margin-top: 2rem;
+   width: 45rem;
+   height: 20rem;
+   display: inline-block;
+   border-radius: 2rem;
+   border: 1px solid rebeccapurple;
+}
+
+.apple-hiding{
+   background-image: url(../images/apple.jpg);
+   background-size: 50%;
+   
+}
+
+.kiwi-hiding{
+   background-image: url(../images/kiwif.jpg);
+   background-size: cover;
+   
+}
+
+.banana-hiding{
+   background-image: url(../images/banana.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.orange-hiding{
+   background-image: url(../images/Orange.jpg);
+   background-size: cover;
+}
+
+.fruit-hiding{
+   background-image: url(../images/fruits.jpg);
+   background-size: 50%;
+}
+.btn{
+   margin: auto;
+   padding: 1rem;
+   display: block;
+   width: 25rem ;
+   border-radius: 1rem;
+}
+
